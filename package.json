@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakodium/@zakodium/sbom-tools.git"
+    "url": "git+https://github.com/zakodium/sbom-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/zakodium/@zakodium/sbom-tools/issues"
+    "url": "https://github.com/zakodium/sbom-tools/issues"
   },
-  "homepage": "https://github.com/zakodium/@zakodium/sbom-tools#readme"
+  "homepage": "https://github.com/zakodium/sbom-tools#readme"
 }

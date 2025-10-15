@@ -2,8 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/@zakodium/sbom-tools.svg)](https://www.npmjs.com/package/@zakodium/sbom-tools)
 [![npm download](https://img.shields.io/npm/dm/@zakodium/sbom-tools.svg)](https://www.npmjs.com/package/@zakodium/sbom-tools)
-[![test coverage](https://img.shields.io/codecov/c/github/zakodium/@zakodium/sbom-tools.svg)](https://codecov.io/gh/zakodium/@zakodium/sbom-tools)
-[![license](https://img.shields.io/npm/l/@zakodium/sbom-tools.svg)](https://github.com/zakodium/@zakodium/sbom-tools/blob/main/LICENSE)
+[![test coverage](https://img.shields.io/codecov/c/github/zakodium/sbom-tools.svg)](https://codecov.io/gh/zakodium/sbom-tools)
+[![license](https://img.shields.io/npm/l/@zakodium/sbom-tools.svg)](https://github.com/zakodium/sbom-tools/blob/main/LICENSE)
 
 Tools to analyse CycloneDX SBOM files.
 
