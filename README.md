@@ -5,7 +5,7 @@
 [![test coverage](https://img.shields.io/codecov/c/github/zakodium/@zakodium/sbom-tools.svg)](https://codecov.io/gh/zakodium/@zakodium/sbom-tools)
 [![license](https://img.shields.io/npm/l/@zakodium/sbom-tools.svg)](https://github.com/zakodium/@zakodium/sbom-tools/blob/main/LICENSE)
 
-SBOM tools.
+Tools to analyse CycloneDX SBOM files.
 
 ## Installation
 
