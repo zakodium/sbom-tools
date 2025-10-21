@@ -8,6 +8,7 @@ import { z } from 'zod';
  */
 const simplifiedSbomSchema = z.object({
   bomFormat: z.literal('CycloneDX'),
+  specVersion: z.literal('1.6'),
   components: z.array(
     z.object({
       type: z.literal('library'),
@@ -15,6 +16,8 @@ const simplifiedSbomSchema = z.object({
       group: z.string().optional(),
       version: z.string(),
       'bom-ref': z.string(),
+      author: z.string().optional(),
+      description: z.string().optional(),
       licenses: z
         .array(
           z.union([
