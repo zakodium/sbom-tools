@@ -1,4 +1,5 @@
-import type { SimplifiedSbom } from './validate_sbom.js';
+import { SbomComponent } from './sbom_component.ts';
+import type { SimplifiedSbom } from './validate_sbom.ts';
 
 type OriginalSbom = object;
 
@@ -12,6 +13,12 @@ export class Sbom {
   constructor(sbom: SimplifiedSbom, originalSbom: OriginalSbom) {
     this.#sbom = sbom;
     this.#originalSbom = originalSbom;
+  }
+
+  *components(): IterableIterator<SbomComponent> {
+    for (const component of this.#sbom.components) {
+      yield new SbomComponent(component);
+    }
   }
 
   /**
