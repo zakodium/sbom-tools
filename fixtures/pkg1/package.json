@@ -1,0 +1,18 @@
+{
+  "name": "pkg1",
+  "private": true,
+  "version": "0.0.0",
+  "license": "PROPRIETARY",
+  "description": "Test package 1",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "generate-sbom": "npx --package @cyclonedx/cyclonedx-npm cyclonedx-npm --omit=dev --spec-version=1.6 --gather-license-texts --output-reproducible --output-file=sbom.json"
+  },
+  "dependencies": {
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.38.0"
+  }
+}

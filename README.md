@@ -15,11 +15,28 @@ npm install @zakodium/sbom-tools
 
 ## Usage
 
-```js
-import { myModule } from '@zakodium/sbom-tools';
+### Generate SBOM file
 
-const result = myModule(args);
-// result is ...
+The tools expect a SBOM file in CycloneDX JSON format, version 1.6.
+
+#### npm
+
+See <https://github.com/CycloneDX/cyclonedx-node-npm>.
+
+A compatible SBOM can be generated with:
+
+```shell
+npx --package @cyclonedx/cyclonedx-npm cyclonedx-npm --omit=dev --spec-version=1.6 --gather-license-texts --output-reproducible --output-file=sbom.json
+```
+
+#### Yarn
+
+See <https://github.com/CycloneDX/cyclonedx-node-yarn>
+
+A compatible SBOM can be generated with:
+
+```shell
+yarn dlx -q @cyclonedx/yarn-plugin-cyclonedx --production --spec-version=1.6 --gather-license-texts --output-reproducible --output-file=sbom.json
 ```
 
 ## License
