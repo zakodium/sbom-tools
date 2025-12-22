@@ -1,6 +1,6 @@
 {
   "name": "@zakodium/sbom-tools",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": " Tools to analyse CycloneDX SBOM files",
   "author": "Zakodium Sàrl",
